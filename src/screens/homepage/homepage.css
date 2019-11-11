@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700,900&display=swap');
+.homepage {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.7));
+
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.homepage .title {
+    background-color: rgba(43, 43, 43, 0.7);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.homepage p {
+    margin: 0;
+    color: whitesmoke;
+}
+.homepage .main{
+    font-size: 4.5rem;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.homepage .subtitle{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width:1366px){
+    .homepage {
+        margin-bottom: 50px;
+    }
+    .homepage .title {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .homepage .main{
+        font-size: 3rem;
+        text-align: center;
+        padding: 5px 20px;
+        background-color: transparent;
+        border-radius: 10px;
+    }
+
+    .homepage .subtitle{
+        font-size: 1.4rem;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:1224px){
+    .homepage .title {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .homepage .main{
+        text-align: center;
+        padding: 5px 20px;
+        background-color: transparent;
+        border-radius: 10px;
+        font-family: 'Fira Sans Condensed', sans-serif; 
+    }
+
+
+}
+
+@media screen and (max-width:768px){
+    .homepage .title {
+        align-items: flex-start;
+    }
+    .homepage {
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homepage .main{
+        text-align: left;
+        
+    }
+
+    .homepage .subtitle{
+        text-align: left;
+        
+    }
+}
+@media screen and (max-width:479px){
+
+    .homepage {
+        background-size: auto 100%;
+    }
+
+   
+}

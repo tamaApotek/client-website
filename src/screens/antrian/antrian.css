@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&display=swap');
+.navbar-antrian {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-antrian p {
+    font-family: 'Fira Sans Condensed', sans-serif; 
+    font-size: 1.8rem;
+    margin-left: 40px;
+}
+
+.doc {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(216,241,230,0.46) 0.1%, rgba(233,226,226,0.28) 90.1% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.doc .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.doc .box .antrian,  .doc .box .nomorantrian, .doc .box .total, .doc .box .nomortotal{
+    font-family: 'Fira Sans Condensed', sans-serif; 
+    color: rgb(45, 45, 45);
+}
+.doc .box .antrian, .doc .box .total {
+    letter-spacing: 0.5rem;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.doc .box .nomorantrian, .doc .box .nomortotal {
+    font-size: 17rem;
+    margin: 0;
+}
+
